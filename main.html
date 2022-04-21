@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Paint Online:)</title>
+        <style type="text/css">
+            body
+            {
+                background-color: white;
+                color: blanchedalmond;
+                font-family: Segoe UI;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <canvas width="1024" height="768" id="folio"> </canvas>
+        <p>Mueve las flechas para dibujar</p>
+        <br>
+        <script src="interaccion.js"></script>
+        <br>
+        <p>Grueso del lápiz:<br></p> Grosor: <input type="text"class="texto_medidas" id="grosorLapiz" />
+        <input type="button"class="boton_medidas" value="Cargar" id="botonGrosor" />
+        <p>
+            Color del pincel <input type="color" id="colorPicker"/>
+        </p>
+    </body>
+</html>
